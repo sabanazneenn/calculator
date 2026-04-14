@@ -50,6 +50,6 @@ def calculate():
     return render_template_string(form_html, result=result)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", port=6060)
 
 
